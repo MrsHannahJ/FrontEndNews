@@ -43,3 +43,21 @@ ul{
 li{
   
 }
+
+/*------------------------------------------------------
+*  Header
+-----------------------------------------------------*/
+.hero{
+  background-color:#A543FF;
+  color: #ffffff;
+  padding: 25px 0;
+  text-align:center;
+
+}
+
+.logo{
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: upperase;
+
+}
