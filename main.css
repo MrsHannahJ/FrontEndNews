@@ -33,6 +33,7 @@ p{
 
 a{
  color:#B4427C;
+  transition: 0.2s;
 }
 
 a:active,
@@ -103,11 +104,44 @@ li{
   margin-right: 10px;
 }
 
+
+
+/*-----------------------------------------------------
+*  Form
+-----------------------------------------------------*/
+.form{
+  height: 0;
+  margin-bottom: 20px;
+  opacity: 0;
+  visibility: hidden;
+}
+.form-label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-input{
+  border: 1px solid #b6b6b6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+  
+}
 /*-----------------------------------------------------
 *  States
 -----------------------------------------------------*/
 .is-liked{
   animation:flash 1s;
+}
+
+.is-visible{
+  height: auto;
+  opacity:1;
+  visibility: visible;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;  
 }
 
 /*-----------------------------------------------------
