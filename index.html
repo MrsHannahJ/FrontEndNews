@@ -25,13 +25,35 @@
             
           </form>
         </header> 
+<!------------Modal----------------->
+        <div class="modal js-modal">
+          <div class="modal-media">
+            <img src="https://pbs.twimg.com/profile_images/1501231577/image.jpg" alt="Buffy Summers">
+            <h3 class="modal-media-title">Buffy Summers</h3>
+          </div>
+          <div class="modal-content">
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, velit voluptatibus deserunt similique</p>
+            <ol class="news">
+              <li class="news-item">
+                <a class="news-link" href="#">Lorem ipsum dolor</a>
+              </li>
+              <li class="news-item">
+                <a class="news-link" href="#">Lorem ipsum dolor</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="modal-overlay js-modal-overlay"></div>
+        
+<!------------Main Content----------------->
         <ol class="news">
           <li class="news-item">
             <a class="news-link" href="#">Lorem ipsum dolor</a>
             <ul class="news-meta">
               <li class="news-meta-item">
               <em>Posted by:</em>
-               <a href="#">Buffy Summers</a>
+               <a class="js-show-modal" href="#">Buffy Summers</a>
               </li>
               <li class="news-meta-item">
                <a href="#">2 comments</a>
